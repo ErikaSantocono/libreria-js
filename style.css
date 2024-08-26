@@ -1,78 +1,112 @@
 /* Stili di base per l'applicazione */
-body {font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      height: 100vh;
-      margin: 0;
-      background-color: #f4f4f4;}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
 
-.container {text-align: center;
-            width: 80%;}
+.container {
+  text-align: center;
+  width: 80%;
+}
 
-h1 {font-size: 2.5em; 
-    margin-bottom: 20px;}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
 
-#searchContainer {position: sticky;
-                  top: 0;
-                  background-color: #f4f4f4;
-                  padding: 10px 0;
-                  z-index: 1000;}
+#searchContainer {
+  position: sticky;
+  top: 0;
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  z-index: 1000;
+}
 
-#searchInput {width: 60%;
-              padding: 10px;
-              font-size: 1.2em;
-              margin-right: 10px;}
+#searchInput {
+  width: 60%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
 
-button {padding: 10px 20px;
-        font-size: 1em;
-        cursor: pointer;
-        margin: 10px 0;}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 10px 0;
+}
 
 /* Stili specifici per il pulsante di ricerca */
-#searchButton {background-color: #4285f4;
-               color: white;
-               border: none;
-               border-radius: 4px;
-               box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-               transition: transform 0.1s, box-shadow 0.1s;}
+#searchButton {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
 
-#searchButton:hover {box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+#searchButton:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
-#searchButton:active {transform: scale(1.05);}
+#searchButton:active {
+  transform: scale(1.05);
+}
 
 /* Stili specifici per il pulsante "Read More" */
-#readMoreButton {background-color: black;
-                 color: white;
-                 border: none;
-                 border-radius: 4px;
-                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                 padding: 15px 30px;
-                 font-size: 1.1em;
-                 margin-top: 20px;}
+#readMoreButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px 30px;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
 
-#readMoreButton:hover {box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+#readMoreButton:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
-#readMoreButton:active {transform: scale(1.05);}
+#readMoreButton:active {
+  transform: scale(1.05);
+}
 
 /* Stili per i risultati */
-#results {margin-top: 20px;}
+#results {
+  margin-top: 20px;
+}
 
-.book {margin: 20px 0;
-       padding: 10px;
-       border: 1px solid #ddd;
-       border-radius: 4px;
-       background-color: white;
-       box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+.book {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-.description-button {background-color: #4285f4;
-                     color: white;
-                     border: none;
-                     border-radius: 4px;
-                     padding: 5px 10px;
-                     cursor: pointer;
-                     transition: transform 0.1s, box-shadow 0.1s;}
+.description-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
 
-.description-button:hover {box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+.description-button:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
-.description-button:active {transform: scale(1.05);}
+.description-button:active {
+  transform: scale(1.05);
+}
